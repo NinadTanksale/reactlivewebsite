@@ -70,7 +70,7 @@ Add Question
 {questions.map((q, index) => (
 <div key={index} className="bg-white shadow-lg rounded-lg p-6 w-full max-w-3xl text-center mb-6">
 <p className="text-xl font-semibold mb-4">{q.question}</p>
-<div className="mt-6 p-4 bg-gray-100 rounded-lg max-h-96 overflow-y-auto text-left">
+<div className="mt-6 p-4 bg-black rounded-lg max-h-96 overflow-y-auto text-left">
 <pre className="whitespace-pre-wrap break-words">{q.answer}</pre>
 </div>
 </div>
