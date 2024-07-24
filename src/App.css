@@ -4,7 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
-
+.bg-gray-100 {
+    --tw-bg-opacity: 1;
+    background-color: #0a0a0c;
 .logo {
   height: 6em;
   padding: 1.5em;
